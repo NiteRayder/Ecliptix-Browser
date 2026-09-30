@@ -1,19 +1,25 @@
-# Welcome, to the Ecliptix Browser!
---------------------------------------
-While this may seem like just another browser 
-that someone made just to get a quick buck, Brooklun DeWolf,
-the developer herself, can assure you that it's
-not. It's optimized for **BOTH** privacy and customization, and colpetely built on it's own. Is is a fork of Gecko, yes. But it's better in a way that Firefox fails.
+# Introducing Meridian
 
-While Firefox is private, there are limitaions on customizations. And most of them have to do with what is only in the browser. Nothng about how it launches, or the animations, sounds, tab styles - not just the colors -, or even modifications that launches a specialized instance for a specific WebApp.
+Meridian is a browser project from **Horizon Forge Studios**, part of the **Silverline Network**. Its goal is to explore a browsing experience that gives people meaningful control over appearance and workflow while treating privacy as a design priority.
 
-So Chrome takes up some of that slack though, right? Wrong, because while it has *slightly* more customization, they use your data to train their AI models. Yes, you heard us right, they use __**YOUR**__ data to train their AI. Edge is just a Microsoft-ified chromum browser. Thus, they do the same.
+## What Meridian aims to provide
 
-Opera is a whole other mess that we cannot get into. All we can say is that it also is built on chromium, max privacy, more customization, but not compatible with cirtain deveices. 
+- A clean, restrained interface built around black, white, and silver.
+- Customizable tabs, browser chrome, themes, and interaction details.
+- Clear, documented privacy settings and understandable defaults.
+- A Windows-focused experience built on Mozilla's Firefox/Gecko source foundation.
 
-Thus, this is the rare multiplatform browser that is smack-dab in the middle.
+Customization should not require confusing settings or vague promises about privacy. Features and protections will be described according to what the implementation actually does.
 
-As we say here ad Cypercliptix Labs, Privacy and Personalization is just a world away. Enjoy your browser. 
+## Current status
 
-Thank you,
-Cybercliptix Labs.
+Meridian is in an early design and prototyping stage. The current interface files are a visual reference, not a complete browser. A working Gecko-based build, installer, update system, and final privacy configuration still need to be developed and tested.
+
+## Project identity
+
+- **Product:** Meridian
+- **Studio:** Horizon Forge Studios
+- **Product family:** Silverline Network
+- **Visual style:** modern, minimal, professional, monochrome
+
+Meridian is an independent project and is not an official Mozilla product.
