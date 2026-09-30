@@ -1,44 +1,47 @@
 #titlebar {
-  height: 32px;
+  height: 34px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   padding: 0 12px;
-  background: var(--ex-bg-main);
-  border-bottom: 1px solid var(--ex-border);
-
+  background: var(--meridian-bg-main);
+  border-bottom: 1px solid var(--meridian-border);
   -webkit-app-region: drag;
 }
 
 #titlebar .brand {
-  font-size: 12px;
-  letter-spacing: 0.18em;
-  color: var(--ex-text-muted);
+  color: var(--meridian-text-muted);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  line-height: 1;
+  user-select: none;
 }
 
 .window-controls {
   display: flex;
-  gap: 6px;
+  align-items: center;
+  gap: 7px;
 }
 
 .window-controls button {
-  width: 12px;
-  height: 12px;
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  border: 1px solid var(--meridian-border);
   border-radius: 50%;
-  border: none;
-
-  background: var(--ex-border);
+  background: var(--meridian-bg-hover);
   cursor: pointer;
-
-  transition: background var(--ex-speed);
+  transition: background var(--meridian-speed), border-color var(--meridian-speed);
   -webkit-app-region: no-drag;
 }
 
 .window-controls button:hover {
-  background: var(--ex-accent-purple);
+  background: var(--meridian-silver);
+  border-color: var(--meridian-silver-bright);
 }
 
 .window-controls button[data-win="close"]:hover {
-  background: var(--ex-accent-red);
+  background: var(--meridian-white);
+  border-color: var(--meridian-white);
 }
