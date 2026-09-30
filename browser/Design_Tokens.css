@@ -1,24 +1,22 @@
 :root {
-  --ex-bg-main: #0a0a10;
-  --ex-bg-alt: #11111c;
-  --ex-bg-hover: #1a1a2a;
+  color-scheme: dark;
 
-  --ex-accent-purple: #7c3aed;
-  --ex-accent-red: #b11226;
+  /* Meridian monochrome palette */
+  --meridian-bg-main: #111111;
+  --meridian-bg-alt: #191919;
+  --meridian-bg-hover: #262626;
+  --meridian-bg-active: #202020;
 
-  --ex-accent-gradient: linear-gradient(
-    135deg,
-    var(--ex-accent-purple),
-    var(--ex-accent-red)
-  );
+  --meridian-silver: #c5c5c5;
+  --meridian-silver-bright: #e5e5e5;
+  --meridian-white: #ffffff;
+  --meridian-black: #000000;
 
-  --ex-glow-purple: rgba(124, 58, 237, 0.35);
-  --ex-glow-red: rgba(177, 18, 38, 0.35);
+  --meridian-text-main: #f2f2f2;
+  --meridian-text-muted: #a8a8a8;
+  --meridian-border: #383838;
+  --meridian-focus: #e5e5e5;
 
-  --ex-text-main: #e8e8ee;
-  --ex-text-muted: #9b9bad;
-
-  --ex-border: #1f1f2f;
-  --ex-radius: 6px;
-  --ex-speed: 160ms;
+  --meridian-radius: 6px;
+  --meridian-speed: 140ms;
 }
