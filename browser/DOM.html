@@ -1,37 +1,37 @@
 <body>
   <header id="titlebar">
-    <div class="brand">ECLIPTIX</div>
-    <div class="window-controls">
-      <button data-win="min"></button>
-      <button data-win="max"></button>
-      <button data-win="close"></button>
+    <div class="brand" aria-label="Meridian browser">MERIDIAN</div>
+    <div class="window-controls" aria-label="Window controls">
+      <button type="button" data-win="min" aria-label="Minimize window" title="Minimize"></button>
+      <button type="button" data-win="max" aria-label="Maximize window" title="Maximize"></button>
+      <button type="button" data-win="close" aria-label="Close window" title="Close"></button>
     </div>
   </header>
 
-  <nav id="tabs-bar">
-    <div class="tab active">
-      <img class="favicon">
+  <nav id="tabs-bar" aria-label="Browser tabs">
+    <div class="tab active" role="tab" aria-selected="true">
+      <img class="favicon" alt="" aria-hidden="true">
       <span>New Tab</span>
-      <button class="close"></button>
+      <button class="close" type="button" aria-label="Close tab" title="Close tab"></button>
     </div>
-    <button id="tab-add">+</button>
+    <button id="tab-add" type="button" aria-label="Open new tab" title="New tab">+</button>
   </nav>
 
-  <nav id="nav-bar">
+  <nav id="nav-bar" aria-label="Navigation">
     <div class="nav-left">
-      <button>←</button>
-      <button>→</button>
-      <button>⟳</button>
+      <button type="button" aria-label="Go back" title="Back">←</button>
+      <button type="button" aria-label="Go forward" title="Forward">→</button>
+      <button type="button" aria-label="Reload page" title="Reload">⟳</button>
     </div>
 
-    <input id="urlbar" placeholder="Search or enter address">
+    <input id="urlbar" type="text" aria-label="Address and search bar" placeholder="Search or enter address">
 
     <div class="nav-right">
-      <button>★</button>
-      <button>⬇</button>
-      <button>≡</button>
+      <button type="button" aria-label="Bookmark this page" title="Bookmark">☆</button>
+      <button type="button" aria-label="Downloads" title="Downloads">↓</button>
+      <button type="button" aria-label="Open browser menu" title="Menu">☰</button>
     </div>
   </nav>
 
-  <main id="content"></main>
+  <main id="content" aria-label="Web page"></main>
 </body>
