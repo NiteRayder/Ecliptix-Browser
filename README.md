@@ -29,7 +29,7 @@ Privacy features will be documented as they are implemented and tested. The proj
 
 1. Establish a reproducible Windows build from the appropriate Mozilla source foundation.
 2. Build and test an unmodified baseline.
-3. Apply Meridian branding and integrate the interface design.
+3. Integrate the Meridian-branded interface into the Gecko-based application.
 4. Review privacy-related defaults and optional components.
 5. Test installation, browsing, updates, accessibility, and security.
 
