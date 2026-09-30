@@ -1,16 +1,28 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
-  background: var(--ex-bg-main);
-  color: var(--ex-text-main);
-  font-family: system-ui, -apple-system, sans-serif;
+  background: var(--meridian-bg-main);
+  color: var(--meridian-text-main);
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
 }
 
 * {
   box-sizing: border-box;
 }
 
+button,
+input {
+  font: inherit;
+}
+
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--meridian-focus);
+  outline-offset: 2px;
+}
+
 ::selection {
-  background: var(--ex-accent-purple);
-  color: #fff;
+  background: var(--meridian-silver);
+  color: var(--meridian-black);
 }
