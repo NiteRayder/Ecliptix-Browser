@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/black">
+
+    <LinearLayout android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@color/grey">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical" android:padding="6dp">
+            <Button android:id="@+id/back" style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="44dp" android:layout_height="44dp" android:minWidth="0dp" android:minHeight="0dp"
+                android:text="‹" android:textSize="26sp"/>
+            <EditText android:id="@+id/url" android:layout_width="0dp" android:layout_height="40dp" android:layout_weight="1"
+                android:background="@drawable/url_bg" android:paddingStart="16dp" android:paddingEnd="16dp"
+                android:singleLine="true" android:inputType="textUri" android:imeOptions="actionGo"
+                android:selectAllOnFocus="true" android:hint="Search or enter address"
+                android:textColor="@color/white" android:textColorHint="@color/grey_light" android:textSize="14sp"/>
+            <Button android:id="@+id/tabs" style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="44dp" android:layout_height="44dp" android:minWidth="0dp" android:minHeight="0dp"
+                android:text="1" android:textSize="16sp"/>
+            <Button android:id="@+id/menu" style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="44dp" android:layout_height="44dp" android:minWidth="0dp" android:minHeight="0dp"
+                android:text="⋮" android:textSize="22sp"/>
+        </LinearLayout>
+        <ProgressBar android:id="@+id/progress" style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent" android:layout_height="2dp" android:max="100" android:progress="0"/>
+    </LinearLayout>
+
+    <org.mozilla.geckoview.GeckoView android:id="@+id/gecko" android:layout_width="match_parent"
+        android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

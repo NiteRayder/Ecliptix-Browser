@@ -1,0 +1,17 @@
+<resources>
+    <style name="Theme.Meridian" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/silver</item>
+        <item name="android:windowBackground">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="alertDialogTheme">@style/Theme.Meridian.Dialog</item>
+    </style>
+    <style name="Theme.Meridian.Dialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="colorBackgroundFloating">@color/grey</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="colorAccent">@color/silver</item>
+    </style>
+</resources>
