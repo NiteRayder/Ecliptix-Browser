@@ -58,8 +58,6 @@ class MainActivity : AppCompatActivity() {
                 .enhancedTrackingProtectionLevel(ContentBlocking.EtpLevel.STRICT)
                 .cookieBehavior(ContentBlocking.CookieBehavior.ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS)
                 .strictSocialTrackingProtection(true)
-                .fingerprintingProtection(true)
-                .fingerprintingProtectionPrivateBrowsing(true)
                 .build()
             val rs = GeckoRuntimeSettings.Builder()
                 .contentBlocking(cb)
